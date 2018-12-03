@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background: #000;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+// ==================== Base Styles ===================== //
+img {
+    width: 100%;
+}
+
+// ===================== Logo ====================== //
+.logo {
+    max-width: 200px;
+}
