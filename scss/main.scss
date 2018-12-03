@@ -4,19 +4,39 @@
 body {
     margin: 0;
     padding: 0;
+    background: rgb(53, 53, 53);
 }
 .container {
     background: #000;
     width: 100%;
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 // ==================== Base Styles ===================== //
 img {
     width: 100%;
 }
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1em;
+}
 
 // ===================== Logo ====================== //
 .logo {
     max-width: 200px;
+    justify-content: flex-start;
+
+}
+// ================== Header Styles ====================== //
+header {
+    display: flex;
+    // flex-wrap: wrap;
+    // align-content: center; 
+    align-items: center;
+    justify-content: space-between;
+        nav {
+            justify-content: flex-end;
+            padding: 20px;
+        }
 }

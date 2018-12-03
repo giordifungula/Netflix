@@ -5,12 +5,13 @@
 body {
   margin: 0;
   padding: 0;
+  background: #353535;
 }
 
 .container {
   background: #000;
   width: 100%;
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -18,8 +19,25 @@ img {
   width: 100%;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.1em;
+}
+
 .logo {
   max-width: 200px;
+  justify-content: flex-start;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav {
+  justify-content: flex-end;
+  padding: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */
