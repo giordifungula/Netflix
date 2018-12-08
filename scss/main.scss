@@ -74,10 +74,19 @@ header {
 
 // =========== Main Section =========== 
 main {
-    background: url(/images/Deadpool-Sweet.jpg);
+    background: url(/images/cinems.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    // flex: 1 1 0;
+    .movies{
+    
+    align-content: center;
+    align-items: center;
+    }
 }
 // =============== Mobile Styles ====================
 @media (max-width: 600px){

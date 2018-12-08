@@ -68,10 +68,17 @@ header nav {
 }
 
 main {
-  background: url(/images/Deadpool-Sweet.jpg);
+  background: url(/images/cinems.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+main .movies {
+  align-content: center;
+  align-items: center;
 }
 
 @media (max-width: 600px) {
