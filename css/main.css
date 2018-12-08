@@ -74,11 +74,19 @@ main {
   height: 100vh;
   display: flex;
   align-content: center;
-  align-items: center;
+  padding: 10px;
 }
-main .movies {
-  align-content: center;
-  align-items: center;
+main .movies .movie {
+  display: flex;
+  margin: 3ch;
+}
+main .movies .movie .moview-item {
+  width: 300px;
+  margin: 3ch;
+  transition: 0.5s;
+}
+main .movies .movie .moview-item:hover {
+  transform: rotate(10deg);
 }
 
 @media (max-width: 600px) {

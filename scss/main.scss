@@ -80,12 +80,31 @@ main {
     height: 100vh;
     display: flex;
     align-content: center;
-    align-items: center;
+    padding:10px;
+    // color: #000;
+    // align-items: center;
     // flex: 1 1 0;
+
     .movies{
-    
-    align-content: center;
-    align-items: center;
+
+    // align-content: center;
+    // text-align: center;
+    // margin: 0 auto;
+    .movie {
+        display: flex;
+        margin: 3ch;
+        
+        .moview-item {
+            width: 300px;
+            margin: 3ch;
+            transition: 0.5s;
+            &:hover {
+                // transform: scale(100deg);
+                transform: rotate(10deg);
+                // background: #eee;
+            }
+        }
+        }
     }
 }
 // =============== Mobile Styles ====================
