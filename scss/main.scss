@@ -29,6 +29,7 @@ a {
         background: rgb(136, 13, 13);
         transform: translateX(-110px);
     }
+
 }
 // ===================== Logo ====================== //
 .logo {
@@ -77,19 +78,14 @@ main {
     background: url(/images/cinems.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    // height: 100vh;
     display: flex;
     align-content: center;
     padding:10px;
-    // color: #000;
-    // align-items: center;
-    // flex: 1 1 0;
-
+    border-bottom:1px solid #eee;
     .movies{
 
-    // align-content: center;
-    // text-align: center;
-    // margin: 0 auto;
+    
     .movie {
         display: flex;
         margin: 3ch;
@@ -107,9 +103,30 @@ main {
         }
     }
 }
+footer {
+    padding: 2em;
+    a {
+        border:none;
+        padding:0 2em;
+        &:hover{
+            transform: none;
+        }
+        margin: 20px;
+        // some space aroung links
+    }
+
+    nav {
+        display: flex;
+
+        a {
+            display: block;
+            // display in different columns
+        }
+    }
+}
 // =============== Mobile Styles ====================
 @media (max-width: 600px){
-    .netflix-content,header {
+    .netflix-content,header,.movie, .nav {
         flex-direction: column;
         // disply column on mobile
     }

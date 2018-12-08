@@ -71,10 +71,10 @@ main {
   background: url(/images/cinems.png);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
   display: flex;
   align-content: center;
   padding: 10px;
+  border-bottom: 1px solid #eee;
 }
 main .movies .movie {
   display: flex;
@@ -89,8 +89,26 @@ main .movies .movie .moview-item:hover {
   transform: rotate(10deg);
 }
 
+footer {
+  padding: 2em;
+}
+footer a {
+  border: none;
+  padding: 0 2em;
+  margin: 20px;
+}
+footer a:hover {
+  transform: none;
+}
+footer nav {
+  display: flex;
+}
+footer nav a {
+  display: block;
+}
+
 @media (max-width: 600px) {
-  .netflix-content, header {
+  .netflix-content, header, .movie, .nav {
     flex-direction: column;
   }
 }
