@@ -67,6 +67,13 @@ header nav {
   max-width: 600px;
 }
 
+main {
+  background: url(/images/Deadpool-Sweet.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
 @media (max-width: 600px) {
   .netflix-content, header {
     flex-direction: column;
