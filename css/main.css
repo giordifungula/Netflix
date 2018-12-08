@@ -68,7 +68,7 @@ header nav {
 }
 
 @media (max-width: 600px) {
-  .netflix-content {
+  .netflix-content, header {
     flex-direction: column;
   }
 }
