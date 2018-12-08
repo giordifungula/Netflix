@@ -55,6 +55,7 @@ header nav {
   align-items: center;
   padding: 2em;
   background: #555454;
+  margin: 1em;
 }
 .netflix-content .netflix-item {
   flex: 1 1 0;
@@ -64,6 +65,12 @@ header nav {
 }
 .netflix-content .netflix-img {
   max-width: 600px;
+}
+
+@media (max-width: 600px) {
+  .netflix-content {
+    flex-direction: column;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
