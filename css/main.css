@@ -6,6 +6,8 @@ body {
   margin: 0;
   padding: 0;
   background: #353535;
+  color: #ccc;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .container {
@@ -45,6 +47,23 @@ header {
 header nav {
   justify-content: flex-end;
   padding: 20px;
+}
+
+.netflix-content {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  padding: 2em;
+  background: #555454;
+}
+.netflix-content .netflix-item {
+  flex: 1 1 0;
+}
+.netflix-content .netflix-item h2 {
+  font-size: 2.5em;
+}
+.netflix-content .netflix-img {
+  max-width: 600px;
 }
 
 /*# sourceMappingURL=main.css.map */

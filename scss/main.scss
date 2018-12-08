@@ -5,6 +5,8 @@ body {
     margin: 0;
     padding: 0;
     background: rgb(53, 53, 53);
+    color: #ccc;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 .container {
     background: #000;
@@ -28,8 +30,6 @@ a {
         transform: translateX(-110px);
     }
 }
-
-
 // ===================== Logo ====================== //
 .logo {
     max-width: 200px;
@@ -47,4 +47,26 @@ header {
             justify-content: flex-end;
             padding: 20px;
         }
+}
+
+//====================== Columns and content =================== //
+.netflix-content{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding: 2em;
+    background: #555454;
+
+    .netflix-item {
+        flex: 1 1 0;
+
+        h2 {
+            font-size: 2.5em;
+        }
+    }
+    // === Image section
+    .netflix-img {
+        max-width: 600px;
+    }
+
 }
